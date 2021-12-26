@@ -28,5 +28,27 @@ I grew up in the small town of Svetlogorsk, and having entered the university, t
 
 ---
 ## Code exemple:
+``` 
+function getMaxSubSum(arr) {
+  let maxSum = 0; // если элементов не будет - возвращаем 0
+
+  for (let i = 0; i < arr.length; i++) {
+    let sumFixedStart = 0;
+    for (let j = i; j < arr.length; j++) {
+      sumFixedStart += arr[j];
+      maxSum = Math.max(maxSum, sumFixedStart);
+    }
+  }
+
+  return maxSum;
+}
+```
+---
+## Education
+* BSTU (2016-2021). Pulp and paper technology.
+Specialty: chemical engineer-technologist.
+* Institute for Advanced Studies and Retraining: assistant-translator of technical literature (English).
+* RS Shcool: JS / FRONT-END. STAGE 0.
+
  
 
