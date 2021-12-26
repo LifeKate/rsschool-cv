@@ -1,4 +1,5 @@
 # Екатерина Герасименко / KATSIARYNA HERASIMENKA
+![Avatar](/assets/images/me.jpg)
 ## Junior Frontend Developer
 
 ---
@@ -44,11 +45,18 @@ function getMaxSubSum(arr) {
 }
 ```
 ---
-## Education
+## Education:
 * BSTU (2016-2021). Pulp and paper technology.
 Specialty: chemical engineer-technologist.
 * Institute for Advanced Studies and Retraining: assistant-translator of technical literature (English).
 * RS Shcool: JS / FRONT-END. STAGE 0.
 
- 
+ ---
+ ## Languages:
+ * Russian - native
+ * Belarusian - native
+ * English - B1
+
+ ---
+
 
