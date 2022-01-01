@@ -117,3 +117,27 @@ font-weight: 300;
     text-decoration: none;
     color: black;
 }
+
+.contact {
+    margin-bottom: 40px;
+}
+
+.skills-wrap {
+   display: flex; 
+   padding: 10px 0px 3px;
+   margin: 0 45px;  
+
+}
+
+.skills-wrap ul {
+    width: 50%;
+}
+
+.skills-wrap li {
+    font-size: 0.9em;
+    list-style-type: none;
+}
+
+.skills-wrap ul:last-child li{
+    text-align: right;
+}
