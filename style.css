@@ -58,8 +58,12 @@ main aside {
     padding: 30px 60px;
 }
 
+aside ul {
+    list-style: none;
+}
+
 .about-me h1{
-font-weight: bold;
+    font-weight: bold;
 }
 
 .about-me{
@@ -101,9 +105,7 @@ font-weight: 300;
 .heading img {
     padding-right: 10px;
 }
-.contact ul {
-    list-style-type: none;
-}
+
 .contact li {
     display: flex;
     justify-content: space-between;
@@ -135,9 +137,23 @@ font-weight: 300;
 
 .skills-wrap li {
     font-size: 0.9em;
-    list-style-type: none;
 }
 
 .skills-wrap ul:last-child li{
     text-align: right;
+}
+
+.skills {
+    margin-bottom: 40px;
+}
+
+.lang span {
+color: #41404277;
+font-size: 0.9em;
+
+}
+.lang ul {
+    padding: 10px 0px 3px;
+    margin: 0 45px;  
+    font-size: 0.9em;
 }
