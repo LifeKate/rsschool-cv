@@ -1,2 +1,119 @@
-body {background-color: red;
-width: 1024px;}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+    background: linear-gradient( to bottom, #DDDFDE, #FEEDE6);
+}
+
+header, 
+main{
+    width: 1024px;
+    background-color: white;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px 25px;
+}
+
+header nav{display: flex;
+    justify-content: flex-end;
+}
+
+.navigation {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navigation li {
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.navigation li:hover {
+    border-color: #13620a ;
+}
+
+.navigation li:hover a{
+    color: #13620a;
+}
+
+.navigation a { 
+    color: black;
+    text-decoration: none;
+}
+main {
+    display: flex;
+
+}
+main aside {
+    width: 40%;
+    padding: 30px 60px;
+}
+
+.about-me h1{
+font-weight: bold;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.about-me picture{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.about-me h2 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+font-weight: 300;
+}
+
+.about-me picture img {
+    margin-left: -60px;
+}
+
+.heading {
+    letter-spacing: 2px;
+    font-size: 17px;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    padding: 3px 0px;
+    margin: 0 45px; 
+
+}
+.heading img {
+    padding-right: 10px;
+}
+.contact ul {
+    list-style-type: none;
+}
+.contact li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px solid black;
+    padding: 3px 0px;
+    margin: 0 45px; 
+    font-size: 0.9em;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: black;
+}
