@@ -18,16 +18,16 @@
     <header>
       <nav>
         <ul class="navigation">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Languages</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-myself">About myself</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#lang">Languages</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main id="home">
       <aside>
         <div class="about-me">
           <h1>KATSIARYNA HERASIMENKA</h1>
@@ -36,7 +36,7 @@
             <img src="assets/images/me.jpg" alt="my photo" width="300" />
           </picture>
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
           <h3 class="heading">
             <img src="/assets/images/contact.svg" alt="contact" />
             CONTACT
@@ -65,7 +65,7 @@
             </li>
           </ul>
         </div>
-        <div class="skills">
+        <div class="skills" id="skills">
           <h3 class="heading">
             <img src="/assets/images/skills.svg" alt="skills" /> SKILLS
           </h3>
@@ -84,7 +84,7 @@
             </ul>
           </div>
         </div>
-        <div class="lang">
+        <div class="lang" id="lang">
           <h3 class="heading">
             <img src="/assets/images/lang.svg" alt="languages" /> LANGUAGES
           </h3>
@@ -96,7 +96,7 @@
         </div>
       </aside>
       <div>
-        <div class="education">
+        <div class="education" id="education">
           <h3 class="heading heading-full">
             <img src="/assets/images/education.svg" alt="education" />
             EDUCATION
@@ -123,7 +123,7 @@
             </ul>
           </div>
         </div>
-        <div class="about-myself">
+        <div class="about-myself" id="about-myself">
           <h3 class="heading heading-full">
             <img src="/assets/images/about-me.svg" alt="about-myself" />ABOUT
             MYSELF
@@ -156,9 +156,9 @@
           </h3>
           <pre><code>function getMaxSubSum(arr){
     let maxSum = 0;
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i &lt; arr.length; i++) {
         let sumFixedStart = 0;
-        for (let j = i; j < arr.length; j++) {
+        for (let j = i; j &lt; arr.length; j++) {
             sumFixedStart += arr[j];
             maxSum = Math.max(maxSum, sumFixedStart);
         }
@@ -166,9 +166,17 @@
     return maxSum;
 }
           </code></pre>
+        </div>
+      </div>
     </main>
     <footer>
-        
+      <a href="https://github.com/LifeKate"
+        ><img src="/assets/images/github.svg" alt="github" />LifeKate</a
+      >
+      <span>© 2022</span>
+      <a href="https://rs.school/js/"
+        ><img src="/assets/images/rs_school_js.svg" alt="rsschool" height="20"
+      /></a>
     </footer>
   </body>
 </html>

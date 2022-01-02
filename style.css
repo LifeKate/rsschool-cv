@@ -45,7 +45,7 @@ header nav {
 }
 
 .navigation li:hover {
-  border-color: #13620a;
+  border-color: #48ee36;
 }
 
 .navigation li:hover a {
@@ -249,4 +249,18 @@ aside ul {
 .code code {
   display: block;
   padding-top: 10px;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 550px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
