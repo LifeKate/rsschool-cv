@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -173,4 +177,76 @@ aside ul {
   padding: 10px 0px 3px;
   margin: 0 45px;
   font-size: 0.9em;
+}
+
+/* Education */
+
+.education span {
+  color: #41404277;
+  font-size: 0.9em;
+}
+
+.education {
+  padding: 10px 0px 35px;
+  font-size: 0.9em;
+}
+
+.education ul {
+  list-style: none;
+}
+
+.education li {
+  position: relative;
+  padding-left: 12px;
+}
+
+.education li::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  top: 6px;
+  left: 0;
+  background-color: black;
+}
+
+.education li::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  border-radius: 50%;
+  top: 6px;
+  left: 2px;
+  background-color: black;
+}
+.about-myself {
+  padding: 10px 0px 3px;
+  font-size: 0.9em;
+}
+
+.heading-full {
+  margin: 0;
+}
+
+.education > div {
+  padding-top: 10px;
+}
+
+/*About myself*/
+
+.about-myself {
+  padding-bottom: 35px;
+}
+
+.about-myself p {
+  padding-top: 10px;
+}
+
+/*Code*/
+
+.code code {
+  display: block;
+  padding-top: 10px;
 }
