@@ -1,69 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>CV-Katsiaryna Herasimenka</title>
-</head>
-<body>
-    <h1>KATSIARYNA HERASIMENKA</h1>
-    <img src="assets/images/me.jpg" alt="my photo" width="300">
-    <div>
-        <h3>Contacts:</h3>
-        <ul>
-         <li>Phone number: +375-29-568-19-88</li>
-          <li>E-mail: asadcaaekaterina0@gmail.com</li>
-          <li>Telegram: @katia_geras</li>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="navigation">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-myself">About myself</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#lang">Languages</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </div>
-    <div>
-        <h3>Briefly About Myself</h3>
-        <ul> 
-            <li>Purpose: to do as much good as possible in life. Learn and develop.</li>
+      </nav>
+    </header>
+    <main id="home">
+      <aside>
+        <div class="about-me">
+          <h1>KATSIARYNA HERASIMENKA</h1>
+          <h2>Junior Fronted Developer</h2>
+          <picture>
+            <img src="assets/images/me.jpg" alt="my photo" width="300" />
+          </picture>
+        </div>
+        <div class="contact" id="contact">
+          <h3 class="heading">
+            <img src="/assets/images/contact.svg" alt="contact" />
+            CONTACT
+          </h3>
+          <ul>
+            <li>
+              <img src="/assets/images/adress.svg" alt="adress" />Minsk, Belarus
+            </li>
+            <li>
+              <img src="/assets//images/phone.svg" alt="phone" /><a
+                href="tel:80295681988"
+                >8-029-568-19-88</a
+              >
+            </li>
+            <li>
+              <img src="/assets/images/email.svg" alt="email" /><a
+                href="mailto:asadchaaekaterina0@gmail.com"
+                >asadchaaekaterina0@gmail.com</a
+              >
+            </li>
+            <li>
+              <img src="/assets/images/site.svg" alt="site" /><a
+                href="https://github.com/LifeKate"
+                >www.github.com/LifeKate</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="skills" id="skills">
+          <h3 class="heading">
+            <img src="/assets/images/skills.svg" alt="skills" /> SKILLS
+          </h3>
+          <div class="skills-wrap">
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Git</li>
+              <li>Figma</li>
+              <li>Communication skills</li>
+            </ul>
+            <ul>
+              <li>Windows</li>
+              <li>MS Office</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lang" id="lang">
+          <h3 class="heading">
+            <img src="/assets/images/lang.svg" alt="languages" /> LANGUAGES
+          </h3>
+          <ul>
+            <li>Russian <span>- native</span></li>
+            <li>Belarusian <span>- native</span></li>
+            <li>English <span>- B1</span></li>
+          </ul>
+        </div>
+      </aside>
+      <div>
+        <div class="education" id="education">
+          <h3 class="heading heading-full">
+            <img src="/assets/images/education.svg" alt="education" />
+            EDUCATION
+          </h3>
+          <div>
+            <ul>
+              <li>
+                <h4>Belarusian State Technological University</h4>
+                <span>2016-2021</span>
+                <p>
+                  Chemical Process Engineer. Technology of pulp and paper
+                  production.
+                </p>
+              </li>
+              <li>
+                <h4>Institute for Advanced Studies and Retraining</h4>
+                <span>2018-2019</span>
+                <p>Assistant-translator of technical literature (English).</p>
+              </li>
+              <li>
+                <h4>RS Shcool: JS / FRONT-END. STAGE 0.</h4>
+                <span>2020-now</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-myself" id="about-myself">
+          <h3 class="heading heading-full">
+            <img src="/assets/images/about-me.svg" alt="about-myself" />ABOUT
+            MYSELF
+          </h3>
+          <p>
+            I grew up in the small town of Svetlogorsk, and having entered the
+            university, there was a clear understanding that I want to stay in
+            Minsk. Knowledge is power. It's never too late to learn. The
+            knowledge gained at the university was not enough, I wanted more.
+            This is where the prospect of discovering a new sphere of IT life
+            opened up. At first it seemed like some kind of scary symbols and it
+            seemed that it was impossible to master. But with time and
+            knowledge, you understand what all these symbols mean, you discover
+            a new language. You understand that you can create something with
+            your own hands, and you enjoy each new function.This is how I came
+            from a chemist-technologist to programming
+          </p>
+          <ul>
+            <li>
+              Purpose: to do as much good as possible in life. Learn and
+              develop.
+            </li>
             <li>Priorities: to grow and develop. Learn new technologies.</li>
-        </ul>
-            <p>I grew up in the small town of Svetlogorsk, and having entered the university, there was a clear understanding that I want to stay in Minsk. Knowledge is power. It's never too late to learn. The knowledge gained at the university was not enough, I wanted more. This is where the prospect of discovering a new sphere of IT life opened up. At first it seemed like some kind of scary symbols and it seemed that it was impossible to master. But with time and knowledge, you understand what all these symbols mean, you discover a new language. You understand that you can create something with your own hands, and you enjoy each new function.This is how I came from a chemist-technologist to programming</p>
-    </div>
-    <div>
-        <h3>Skills</h3>
-        <ul><li> HTML5, CSS3</li>
-           <li>JavaScript Basics</li>
-           <li>Git, GitHub</li>
-           <li>VS Code</li>
-           <li>Adobe Photoshop, Figma</li></ul>
-    </div>
-    <div>
-        <h3>Code exemple:</h3>
-        <code>
-            function getMaxSubSum(arr) {
-              let maxSum = 0; // если элементов не будет - возвращаем 0
-            
-              for (let i = 0; i < arr.length; i++) {
-                let sumFixedStart = 0;
-                for (let j = i; j < arr.length; j++) {
-                  sumFixedStart += arr[j];
-                  maxSum = Math.max(maxSum, sumFixedStart);
-                }
-              }
-            
-              return maxSum;
-            }</code>
-    </div>
-<div><h3>Education:</h3>
-<ul>
-<li> BSTU (2016-2021). Pulp and paper technology.Specialty: chemical engineer-technologist.</li>
-<li>Institute for Advanced Studies and Retraining: assistant-translator of technical literature (English).</li> 
-<li>RS Shcool: JS / FRONT-END. STAGE 0.</li> 
-</ul></div>
+          </ul>
+        </div>
 
-<div><h3>Languages:</h3>
-<ul>
- <li>Russian - native</li>
- <li>Belarusian - native</li>
- <li>English - B1</li>
-</ul></div>
-
-</body>
+        <div class="code">
+          <h3 class="heading heading-full">
+            <img src="/assets/images/code.svg" alt="code" /> CODE EXEMPLE
+          </h3>
+          <pre><code>function getMaxSubSum(arr){
+    let maxSum = 0;
+    for (let i = 0; i &lt; arr.length; i++) {
+        let sumFixedStart = 0;
+        for (let j = i; j &lt; arr.length; j++) {
+            sumFixedStart += arr[j];
+            maxSum = Math.max(maxSum, sumFixedStart);
+        }
+    } 
+    return maxSum;
+}
+          </code></pre>
+        </div>
+        <div class="project">
+          <h3 class="heading heading-full">
+            <img src="/assets/images/project.svg" alt="project" height="12" />
+            PROJECT
+          </h3>
+          <a href="https://LifeKate.github.io/rsschool-cv/">My CV</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a href="https://github.com/LifeKate"
+        ><img src="/assets/images/github.svg" alt="github" />LifeKate</a
+      >
+      <span>© 2022</span>
+      <a href="https://rs.school/js/"
+        ><img src="/assets/images/rs_school_js.svg" alt="rsschool" height="20"
+      /></a>
+    </footer>
+  </body>
 </html>

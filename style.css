@@ -1,2 +1,273 @@
-body {background-color: red;
-width: 1024px;}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom, #dddfde, #feede6);
+}
+
+header,
+main {
+  width: 1024px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  padding: 15px 25px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.navigation li {
+  padding-left: 15px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.navigation li:hover {
+  border-color: #48ee36;
+}
+
+.navigation li:hover a {
+  color: #13620a;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+main aside {
+  width: 40%;
+  padding: 0 30px;
+  flex-basis: 40%;
+}
+
+main > div {
+  width: 50%;
+}
+
+aside ul {
+  list-style: none;
+}
+
+/* About me */
+
+.about-me h1 {
+  font-weight: bold;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.about-me picture {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.about-me h2 {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-weight: 300;
+}
+
+.about-me picture img {
+  margin-left: -60px;
+}
+
+.heading {
+  letter-spacing: 2px;
+  font-size: 17px;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  display: flex;
+  align-items: center;
+  padding: 3px 0px;
+  margin: 0 45px;
+}
+.heading img {
+  padding-right: 10px;
+}
+
+/* Contancts */
+
+.contact li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid black;
+  padding: 3px 0px;
+  margin: 0 45px;
+  font-size: 0.9em;
+}
+
+.contact li a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  margin-bottom: 40px;
+}
+
+/* Skills */
+
+.skills-wrap {
+  display: flex;
+  padding: 10px 0px 3px;
+  margin: 0 45px;
+}
+
+.skills-wrap ul {
+  width: 50%;
+}
+
+.skills-wrap li {
+  font-size: 0.9em;
+}
+
+.skills-wrap ul:last-child li {
+  text-align: right;
+}
+
+.skills {
+  margin-bottom: 40px;
+}
+
+/* Lang */
+
+.lang span {
+  color: #41404277;
+  font-size: 0.9em;
+}
+
+.lang ul {
+  padding: 10px 0px 3px;
+  margin: 0 45px;
+  font-size: 0.9em;
+}
+
+/* Education */
+
+.education span {
+  color: #41404277;
+  font-size: 0.9em;
+}
+
+.education {
+  padding: 10px 0px 35px;
+  font-size: 0.9em;
+}
+
+.education ul {
+  list-style: none;
+}
+
+.education li {
+  position: relative;
+  padding-left: 12px;
+}
+
+.education li::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  top: 6px;
+  left: 0;
+  background-color: black;
+}
+
+.education li::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  border-radius: 50%;
+  top: 6px;
+  left: 2px;
+  background-color: black;
+}
+.about-myself {
+  padding: 10px 0px 3px;
+  font-size: 0.9em;
+}
+
+.heading-full {
+  margin: 0;
+}
+
+.education > div {
+  padding-top: 10px;
+}
+
+/*About myself*/
+
+.about-myself {
+  padding-bottom: 35px;
+}
+
+.about-myself p {
+  padding-top: 10px;
+}
+
+/*Code*/
+
+.code code {
+  display: block;
+  padding-top: 10px;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 550px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.project a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
