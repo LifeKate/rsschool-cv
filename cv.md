@@ -50,7 +50,8 @@ function getMaxSubSum(arr) {
 Specialty: chemical engineer-technologist.
 * Institute for Advanced Studies and Retraining: assistant-translator of technical literature (English).
 * RS Shcool: JS / FRONT-END. STAGE 0.
-
+* RS Shcool: JS / FRONT-END. STAGE 1.
+* 
  ---
  ## Languages:
  * Russian - native
